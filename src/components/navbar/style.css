@@ -1,6 +1,10 @@
 nav{
     display: grid;
-    background-color: darkblue;
+    background-image: url("https://png.pngtree.com/thumb_back/fw800/back_our/20190623/ourmid/pngtree-simple-technology-quality-light-effect-hd-background-image_237701.jpg");
+    background-color: #cccccc;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
@@ -38,9 +42,10 @@ nav{
 
 .items{
     grid-row: 1/2;
+    align-self: center;
 }
 
 .ext{
     grid-row: 2/3;
-    align-self: end;
+    align-self: center;
 }
