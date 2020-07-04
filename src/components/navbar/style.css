@@ -1,0 +1,46 @@
+nav{
+    display: grid;
+    background-color: darkblue;
+
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+
+    grid-column: 1/2;
+    grid-row: 2/3;
+
+}
+
+.navbar{
+    font-size: 15pt;
+    padding: 0;
+    margin: 5px;
+    list-style-type: none;
+}
+
+.navbar li{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
+
+.navbar li a{
+    padding: 0px 50px 2px 2px;
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+
+.navbar li a:hover{
+    border-radius: 3px;
+    background-color: white;
+    color: darkblue
+}
+
+.items{
+    grid-row: 1/2;
+}
+
+.ext{
+    grid-row: 2/3;
+    align-self: end;
+}
