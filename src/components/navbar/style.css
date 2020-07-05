@@ -1,6 +1,10 @@
 nav{
     display: grid;
-    background-color: darkblue;
+    background-image: url("../../img/nav1.PNG");
+    background-color: #cccccc;
+    background-position: start;
+    background-repeat: no-repeat;
+    background-size: cover;
 
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
@@ -38,9 +42,10 @@ nav{
 
 .items{
     grid-row: 1/2;
+    align-self: center;
 }
 
 .ext{
     grid-row: 2/3;
-    align-self: end;
+    align-self: center;
 }
