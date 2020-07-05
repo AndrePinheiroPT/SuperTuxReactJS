@@ -1,4 +1,5 @@
 footer{
+    display: grid;
     background-image: url("../../img/nav2.PNG");
     background-color: #cccccc;
     background-position: start;
@@ -10,7 +11,11 @@ footer{
 
     color: #023240;
     font-size: 11pt;
-    
+
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+
+    font-size: 13pt;
 }
 
 footer a{
@@ -22,4 +27,9 @@ footer a{
 
 footer a:hover{
     opacity: 0.8;
+}
+
+footer div.footer-container{
+    justify-self: center;
+    align-self: center;
 }
