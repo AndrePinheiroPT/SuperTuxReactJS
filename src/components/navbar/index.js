@@ -17,30 +17,13 @@ const Navbar = () => (
                 <a href='http://google.com'>About</a>
             </li>
             <li>
+                <a href='http://google.com'>Images</a>
+            </li>
+            <li>
                 <a href='http://google.com'>Contact</a>
             </li>
             <li>
-                <a href='http://google.com'>Screenshots</a>
-            </li>
-            <li>
-                <a href='http://google.com'>Donate</a>
-            </li>
-        </ul>
-        <ul className='navbar ext'>
-            <li>
-                <a href='http://google.com'>Chat</a>
-            </li>
-            <li>
-                <a href='http://google.com'>Wiki</a>
-            </li>
-            <li>
-                <a href='http://google.com'>Bugs</a>
-            </li>
-            <li>
-                <a href='http://google.com'>Forum</a>
-            </li>
-            <li>
-                <a href='http://google.com'>Discord</a>
+                <a className="donate" href='http://google.com'>Donate</a>
             </li>
         </ul>
     </nav>
