@@ -1,8 +1,8 @@
 nav{
     display: grid;
-    background-image: url("https://png.pngtree.com/thumb_back/fw800/back_our/20190623/ourmid/pngtree-simple-technology-quality-light-effect-hd-background-image_237701.jpg");
+    background-image: url("../../img/nav1.PNG");
     background-color: #cccccc;
-    background-position: center;
+    background-position: start;
     background-repeat: no-repeat;
     background-size: cover;
 
