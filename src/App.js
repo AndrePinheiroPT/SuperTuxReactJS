@@ -2,8 +2,9 @@ import React from 'react';
 
 import Header from './components/header'
 import Navbar from './components/navbar'
-import Main from './components/main'
 import Footer from './components/footer'
+import Home from './pages/home'
+
 
 import './style.css'
 
@@ -12,8 +13,10 @@ function App() {
     <div className='container'>
       <Header />
       <Navbar />
-      <Main />
       <Footer />
+      <main>
+        <Home />
+      </main>
     </div>
   );
 }
