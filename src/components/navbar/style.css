@@ -22,22 +22,30 @@ nav{
 }
 
 .navbar li{
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin-top: 9px;
+    margin-bottom: 9px;
     margin-left: 10px;
 }
 
 .navbar li a{
-    padding: 0px 50px 2px 2px;
+    border: none;
+    border-left: solid 3px white;
+    padding: 0px 50px 2px 7px;
     text-decoration: none;
     color: white;
-    transition: 0.3s;
+    transition: 0.10s;
+}
+
+.navbar li a.donate{
+    border-left: solid 3px gold;
 }
 
 .navbar li a:hover{
-    border-radius: 3px;
-    background-color: white;
-    color: darkblue
+    border-left: solid 10px white;
+}
+
+.navbar li a.donate:hover{
+    border-left: solid 10px gold;
 }
 
 .items{
@@ -49,3 +57,4 @@ nav{
     grid-row: 2/3;
     align-self: center;
 }
+
