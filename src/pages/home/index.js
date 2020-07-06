@@ -1,13 +1,16 @@
 import React, { Component } from 'react'
 import './style.css'
 
+import logo from '../../img/Logo.png'
+import nav1 from '../../img/nav1.PNG'
+import nav2 from '../../img/nav2.PNG'
+
 export default class Home extends Component{
     state = {
         images: [
-            'img0.png',
-            'img1.png',
-            'img2.png',
-            'img3.png'
+            logo,
+            nav1,
+            nav2
         ],
         slide: 0
     }
@@ -46,9 +49,11 @@ export default class Home extends Component{
 
         return (
             <div className='slide-container'>
-                <h3>{images[slide]} - {slide}</h3>
-                <button onClick={this.prevSlide}>Prev</button>
-                <button onClick={this.nextSlide}>Next</button>
+                <a href="http://google.com">
+                    <img className="slide-img" src={images[slide]}></img>
+                </a>
+                <button className='prev' onClick={this.prevSlide}>&#10094;</button>
+                <button className='next' onClick={this.nextSlide}>&#10095;</button>
             </div>
         )
     }
