@@ -1,0 +1,28 @@
+.slide-welcome{
+    background-image: url('../../../img/welcome/arcticmountains.png');
+    background-size: cover;
+    background-repeat: repeat-x;
+    height: 100vh;
+}
+
+.slide-welcome h1{
+    margin: 0;
+    padding: 0;
+}
+
+.tux-running{
+    position: absolute;
+    align-self: flex-end;
+    bottom: 25vh;
+    left: 30vw
+}
+
+.ground{
+    position: absolute;
+    bottom: 0vh;
+    height: 30vh;
+    width: 80vw;
+    background-image: url('../../../img/welcome/ground.png');
+    background-repeat: repeat-x;
+}
+

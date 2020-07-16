@@ -4,6 +4,7 @@ import './style.css'
 import logo from '../../img/Logo.png'
 import nav1 from '../../img/nav1.PNG'
 import nav2 from '../../img/nav2.PNG'
+import Welcome from './welcome'
 
 export default class Home extends Component{
     state = {
@@ -49,9 +50,7 @@ export default class Home extends Component{
 
         return (
             <div className='slide-container'>
-                <a href="http://google.com">
-                    <img className="slide-img" src={images[slide]}></img>
-                </a>
+                <Welcome />
                 <button className='prev' onClick={this.prevSlide}>&#10094;</button>
                 <button className='next' onClick={this.nextSlide}>&#10095;</button>
             </div>
