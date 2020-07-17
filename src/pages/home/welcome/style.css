@@ -7,14 +7,32 @@
 
 .slide-welcome h1{
     margin: 0;
-    padding: 0;
+    padding: 10px 0px 0px 25px;
+    color: white;
+}
+
+.ice{
+    position: absolute;
+    bottom: 24vh;
+    right: 0vw;
 }
 
 .tux-running{
     position: absolute;
-    align-self: flex-end;
     bottom: 25vh;
     left: 30vw
+}
+
+.jumpy{
+    position: absolute;
+    bottom: 40vh;
+    right: 30vw; 
+}
+
+.snowball{
+    position: absolute;
+    bottom: 25vh;
+    right: 40vw;
 }
 
 .ground{
