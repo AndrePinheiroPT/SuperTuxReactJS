@@ -7,14 +7,33 @@
 
 .slide-welcome h1{
     margin: 0;
-    padding: 10px 0px 0px 25px;
+    padding: 10px 0px 10px 25px;
     color: white;
+    background-color: rgba(0, 0, 0, 0.04);
+}
+
+.block{
+    position: absolute;
+    bottom: 40vh;
+    left: 40vw;
 }
 
 .ice{
     position: absolute;
     bottom: 24vh;
-    right: 0vw;
+    right: 0vw; 
+}
+
+.coin1{
+    position: absolute;
+    bottom: 30vh;
+    left: 46vw;
+}
+
+.coin2{
+    position: absolute;
+    bottom: 30vh;
+    left: 41vw;
 }
 
 .tux-running{
