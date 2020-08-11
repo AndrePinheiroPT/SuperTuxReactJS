@@ -1,0 +1,49 @@
+.slide-container{
+    height: 100vh;
+}
+
+.slide-container h3{
+    margin: 0;
+    padding: 0;
+}
+
+.prev, .next{
+    cursor: pointer;
+    position: absolute;
+    margin-top: -50px;
+    top: 50%;
+    width: 45px;
+    font-size: 18pt;
+
+    border: none;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0);
+    transition: 0.4s;
+    color: white
+}
+
+.prev{
+    border-left: solid 3px white;
+}
+
+.next{
+    border-right: solid 3px white;
+    right: 0;
+}
+
+.prev:hover{
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 55px;
+    border-left: solid 12px white;
+}
+
+.next:hover{
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 55px;
+    border-right: solid 12px white;
+}
+
+.slide-img{
+    position: absolute;
+    bottom: 0;
+}
