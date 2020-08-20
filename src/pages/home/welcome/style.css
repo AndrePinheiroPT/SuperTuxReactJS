@@ -5,53 +5,100 @@
     height: 100vh;
 }
 
-.slide-welcome h1{
-    margin: 0;
+.div-welcome{
     padding: 10px 0px 10px 25px;
     color: white;
     background-color: rgba(0, 0, 0, 0.04);
+    animation: div-welcome-animation 2.5s;
+}
+
+.div-welcome h1{
+    margin: 0;
+}
+
+@keyframes div-welcome-animation{
+    0% {padding-left: 55px;}
+    100% {padding-left: 25px;}
 }
 
 .block{
     position: absolute;
     bottom: 40vh;
     left: 40vw;
+    animation: block-animation 2.5s;
+}
+
+@keyframes block-animation{
+    0% {bottom: 45vh;}
+    100% {bottom: 40vh;}
 }
 
 .ice{
     position: absolute;
     bottom: 24vh;
     right: 0vw; 
+    animation: ice-animation 2.5s;
 }
+
+@keyframes ice-animation{
+    0% {bottom: 21vh;}
+    100% {bottom: 24vh;}
+}
+
 
 .coin1{
     position: absolute;
     bottom: 30vh;
     left: 46vw;
+    animation: coin-animation 2.5s;
 }
 
 .coin2{
     position: absolute;
     bottom: 30vh;
     left: 41vw;
+    animation: coin-animation 2.5s;
+}
+
+@keyframes coin-animation{
+    0% {transform: rotate(300deg);}
+    100% {transform: rotate(0deg)}
 }
 
 .tux-running{
     position: absolute;
     bottom: 25vh;
-    left: 30vw
+    left: 30vw;
+    animation: tux-animation 2.5s;
+}
+
+@keyframes tux-animation{
+    0% {left: 25vw;}
+    100% {left: 30vw;}
 }
 
 .jumpy{
     position: absolute;
     bottom: 40vh;
     right: 30vw; 
+    animation: jumpy-animation 2.5s;
+}
+
+@keyframes jumpy-animation{
+    0% {bottom: 30vh;}
+    100% {bottom: 40vh;}
 }
 
 .snowball{
     position: absolute;
     bottom: 25vh;
     right: 40vw;
+    animation: snowball-animation 2.5s;
+}
+
+@keyframes snowball-animation{
+    0% {right: 36vw;}
+    100% {right: 40vw;}
 }
 
 .ground-snow{
