@@ -15,7 +15,7 @@ const Welcome = () => (
             Supertux Website
         </h1>
         <img className="ice" src={ice}></img>
-        <div className="ground"></div>
+        <div className="ground-snow"></div>
         <img className="tux-running" src={tux}></img>
         <img className="jumpy" src={jumpy}></img>
         <img className="snowball" src={snowball}></img>

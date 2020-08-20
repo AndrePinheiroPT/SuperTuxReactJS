@@ -54,11 +54,11 @@
     right: 40vw;
 }
 
-.ground{
+.ground-snow{
     position: absolute;
     bottom: 0vh;
     height: 30vh;
-    width: 80vw;
+    width: 81vw;
     background-image: url('../../../img/welcome/ground.png');
     background-repeat: repeat-x;
 }
