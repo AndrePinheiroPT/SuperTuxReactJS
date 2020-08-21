@@ -1,5 +1,5 @@
 .slide-download{
-    background-image: url('../../../img/download/castle-background.png');
+    background-image: url('../../../img/download/castle_background.png');
     height: 100vh;
     background-position: center;
 }
@@ -23,9 +23,48 @@
     background-repeat: repeat-x;
 }
 
+
+.buttjump1{
+    position: absolute;
+    bottom: 30vh;
+    left: 27vw;
+    animation: buttjump1-animation 2.5s;
+}
+
+@keyframes buttjump1-animation{
+    0% {bottom: 50vh;}
+    100% {bottom: 30vh;}
+}
+
+.iceblock1{
+    position: absolute;
+    bottom: 19vh;
+    left: 67vw;
+    animation: iceblock1-animation 2.5s;
+}
+
+@keyframes iceblock1-animation{
+    0% {left: 75vw;}
+    100% {left: 67vw;}
+}
+
+.spiky1{
+    position: absolute;
+    bottom: 19vh;
+    left: 50vw;
+    transform: scaleX(-1);
+    animation: spiky1-animation 2.5s;
+}
+
+
+@keyframes spiky1-animation{
+    0% {left: 43vw;}
+    100% {left: 50vw;}
+}
+
 .haywire1{
     position: absolute;
-    bottom: 20vh;
+    bottom: 19vh;
     left: 30vw;
     animation: haywire1 2.5s;
 }
@@ -37,7 +76,7 @@
 
 .haywire2{
     position: absolute;
-    bottom: 20vh;
+    bottom: 19vh;
     left: 26vw;
     animation: haywire2 2.5s;
 }
@@ -49,6 +88,7 @@
 
 .center{
     position: absolute;
+    width: 530px;
     top: 1vh;
     right: 24vw;
     background-color: rgba(0, 0, 0, 0.3);
@@ -62,7 +102,6 @@
 }
 
 .middle-title{
-    
     margin: 0;
     padding: 0;
     top: 1vh;
@@ -149,3 +188,9 @@
     color: white;
 }
 
+.span-text{
+    font-size: 10pt;
+    margin: 0;
+    padding: 0;
+    display: block;
+}
