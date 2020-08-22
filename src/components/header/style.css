@@ -1,5 +1,7 @@
 header{
-    background-color: #065dff;
+    background-image: url('../../img/Header.PNG');
+    background-position: center;
+    background-position-y: bottom;
     grid-column: 1/2;
     grid-row: 1/2;
 
