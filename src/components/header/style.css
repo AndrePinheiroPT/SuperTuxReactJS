@@ -1,5 +1,24 @@
 header{
-    background-color: brown;
+    background-image: url('../../img/Header.PNG');
+    background-position: center;
+    background-position-y: bottom;
     grid-column: 1/2;
     grid-row: 1/2;
+
+    border-right: solid 6px rgba(0, 0, 0, 0.1);
+}
+
+header a img{
+    padding-top: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 90%;
+    max-width: 90%;
+    transition: 0.2s;
+}
+
+header a img:hover{
+    max-height: 88%;
+    max-width: 88%;
 }
