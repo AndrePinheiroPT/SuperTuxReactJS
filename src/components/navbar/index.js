@@ -22,8 +22,8 @@ const Navbar = () => (
             <a href='http://google.com'>
                 <li>Contact</li>
             </a>
-            <a className="donate" href='http://google.com'>
-                <li>Donate</li>
+            <a href='http://google.com'>
+                <li className="donate">Donate</li>
             </a>
             
         </ul>
