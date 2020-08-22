@@ -1,4 +1,5 @@
 nav{
+    display: grid;
     background-color: #cccccc;
     background-image: linear-gradient(to right, 
     rgba(0, 0, 0, 0.001), 
@@ -6,6 +7,8 @@ nav{
     url("../../img/Nav.PNG");
     
     background-position: center;
+    grid-row: 2/3;
+    grid-column: 1/2;
 }
 
 .navbar{

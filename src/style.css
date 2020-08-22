@@ -1,5 +1,5 @@
 .container{
     display: grid;
     grid-template-columns: 1fr 4.5fr;
-    grid-template-rows: 20vh 60vh 20vh;
+    grid-template-rows: 25vh 50vh 25vh;
 }
