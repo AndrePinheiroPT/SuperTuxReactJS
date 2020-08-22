@@ -1,12 +1,14 @@
 nav{
     display: grid;
     background-color: #cccccc;
-    background-image: linear-gradient(to right, 
+    background-image: linear-gradient(to left, 
     rgba(0, 0, 0, 0.001), 
     rgba(0, 0, 0, 0.4)), 
-    url("../../img/Nav.PNG");
-    
-    background-position: center;
+    url("../../img/nav1.PNG");
+    background-position: start;
+    background-repeat: no-repeat;
+    background-size: cover;
+
     grid-row: 2/3;
     grid-column: 1/2;
 }
@@ -24,7 +26,6 @@ nav{
     font-size: 17pt;
     padding: 3px 10px 3px 20px;
     border-radius: 2px;
-    background-color: rgba(0, 0, 0, 0.01);
     border-left: solid 3px snow;
     transition: 0.40s;
 }
@@ -34,13 +35,17 @@ nav{
     color: white;
 }
 
+.navbar li.donate{
+    border-left: solid 3px gold;
+}
+
 
 .navbar li:hover{
     background-color: rgba(0, 0, 0, 0.3);
     border-left: solid 10px snow;
 }
 
-.navbar li a.donate:hover{
+.navbar li.donate:hover{
     border-left: solid 10px gold;
 }
 
