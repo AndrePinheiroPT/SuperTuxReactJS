@@ -32,10 +32,13 @@ footer div.footer-container{
     padding: 8px;
     height: 40px;
     width: 40px;
-    transition: 1s;
+    transition: 0.3s;
 }
 
 .icon:hover{
+    height: 43px;
+    width: 43px;
+    transform: rotate(3deg);
     filter: blur(0px);
     opacity: 1;
 }
