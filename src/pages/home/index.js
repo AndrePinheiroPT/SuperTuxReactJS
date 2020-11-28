@@ -4,13 +4,14 @@ import './style.css'
 
 import Welcome from './welcome'
 import Download from './download'
+import Contact from './contact'
 
 export default class Home extends Component{
     state = {
         slidesList: [
             'welcome-slide',
             'download-slide',
-            'welcome-slide2',
+            'contact-slide',
             'welcome-slide3'
         ],
         slide: 0
@@ -54,6 +55,9 @@ export default class Home extends Component{
                             </Route>
                             <Route path="/download-slide">
                                 <Download />
+                            </Route>
+                            <Route path="/contact-slide">
+                                <Contact />
                             </Route>
                         </Switch>
                         <Redirect to={`/${slidesList[slide]}`}/>

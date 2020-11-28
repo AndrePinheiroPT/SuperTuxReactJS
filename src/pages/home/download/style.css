@@ -9,7 +9,7 @@
     bottom: 0vh;
     height: 20vh;
     width: 81.8vw;
-    background-image: url('../../../img/download/castle_tile.PNG');
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.1)), url('../../../img/download/castle_tile.PNG');
     background-repeat: repeat-x;
 }
 
@@ -19,7 +19,7 @@
     top: 0vh;
     height: 10vh;
     width: 81.8vw;
-    background-image: url('../../../img/download/castle_tile.PNG');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.1)), url('../../../img/download/castle_tile.PNG');
     background-repeat: repeat-x;
 }
 
@@ -90,7 +90,7 @@
     position: absolute;
     width: 530px;
     top: 1vh;
-    right: 24vw;
+    left: 36vw;
     background-color: rgba(0, 0, 0, 0.3);
     padding: 20px;
     animation: center-move 2.5s;

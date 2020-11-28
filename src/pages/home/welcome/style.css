@@ -1,5 +1,5 @@
 .slide-welcome{
-    background-image: url('../../../img/welcome/arcticmountains.png');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0)), url('../../../img/welcome/arcticmountains.png');
     background-size: cover;
     background-repeat: repeat-x;
     height: 100vh;
@@ -106,7 +106,7 @@
     bottom: 0vh;
     height: 30vh;
     width: 81.8vw;
-    background-image: url('../../../img/welcome/ground.png');
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0)), url('../../../img/welcome/ground.png');
     background-repeat: repeat-x;
 }
 

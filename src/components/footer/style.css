@@ -5,8 +5,9 @@ footer{
     rgba(0, 0, 0, 0.4)), 
     url("../../img/nav2.PNG");
     background-color: #cccccc;
-    background-position: start;
     background-repeat: no-repeat;
+    background-position: start;
+    background-size: cover;
 
     grid-column: 1/2;
     grid-row: 3/4;
