@@ -1,0 +1,141 @@
+.slide-contact{
+    background-image: url('../../../img/contact/darkcave.png');
+    height: 100vh;
+    background-position: center;
+}
+
+.ground-water{
+    position: absolute;
+    bottom: 0;
+    height: 36vh;
+    width: 81.8vw;
+    background-image: url('../../../img/contact/water.png');
+    background-repeat: repeat-x;
+    opacity: 0.6;
+}
+
+.ground-cave{
+    position: absolute;
+    bottom: 0vh;
+    height: 14vh;
+    width: 81.8vw;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.1)), url('../../../img/contact/groundCave.png');
+    background-repeat: repeat-x;
+}
+
+.top-cave{
+    position: absolute;
+    top: -8vh;
+    height: 240px;
+    width: 81.8vw;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.1)), url('../../../img/contact/topCave.png');
+    background-repeat: repeat-x;
+}
+
+.watersmall{
+    position: absolute;
+    bottom: 19vh;
+    right: 30vw;
+    transform: scaleX(-1);
+    animation: watersmall-animation 2.5s;
+}
+
+@keyframes watersmall-animation{
+    0% { right: 17vw;}
+    100% { right: 30vw;}
+}
+
+.coins4x4{
+    position: absolute;
+    right: 60vw;
+    bottom: 18vh;
+    animation: coins4x4-animation 2.5s;
+}
+
+@keyframes coins4x4-animation{
+    0% { transform: rotate(12deg);}
+    100% { transform: rotate(0deg); }
+}
+
+.crystallo{
+    position: absolute;
+    right: 50vw;
+    bottom: 14vh;
+    transform: scaleX(-1);
+    animation: crystallo-animation 2.5s;
+}
+
+@keyframes crystallo-animation{
+    0% { right: 55vw;}
+    100% { right: 50vw;}
+}
+
+.fly-snowball1{
+    position: absolute;
+    transform: scaleX(-1);
+    right: 65vw;
+    bottom: 60vh;
+    animation: flySnowball1-animation 2.5s;
+}
+
+@keyframes flySnowball1-animation{
+    0% { bottom: 47vh;}
+    100% { bottom: 60vh;}
+}
+
+.fly-snowball2{
+    position: absolute;
+    right: 10vw;
+    bottom: 47vh;
+    animation: flySnowball2-animation 2.5s;
+}
+
+@keyframes flySnowball2-animation{
+    0% { bottom: 60vh;}
+    100% { bottom: 47vh;}
+}
+
+.info-list{
+    position: absolute;
+    left: 44vw;
+    bottom: 40vh;
+    animation: list-animation 2.5s;
+}
+
+@keyframes list-animation{
+    0% {bottom: 20vh;}
+    100% {bottom: 40vh;}
+}
+
+.info-button{
+    margin: 3px;
+    cursor: pointer;
+    font-family: supertux;
+    font-size: 18pt;
+    color: white;
+    background: linear-gradient(to left top, #0084ab, #0084ab, #8edbeb), #00bff2;
+    border-radius: 10px;
+    border: none;
+    height: 50px;
+    width: 130px;
+    transition: 1s;
+    opacity: 0.65;
+}
+
+.info-button:hover{
+    opacity: 1;
+}
+
+.absolute-title{
+    font-size: 30pt;
+    color: rgb(228, 228, 228);
+    position: absolute;
+    bottom: 55vh;
+    left: 44vw;
+    animation: absolute-title-animation 2.5s;
+}
+
+@keyframes absolute-title-animation{
+    0% {bottom: 70vh;}
+    100% {bottom: 55vh;}
+}

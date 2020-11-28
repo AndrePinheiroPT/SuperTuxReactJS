@@ -1,61 +1,52 @@
 nav{
     display: grid;
-    background-image: url("../../img/nav1.PNG");
     background-color: #cccccc;
+    background-image: linear-gradient(to left, 
+    rgba(0, 0, 0, 0.001), 
+    rgba(0, 0, 0, 0.4)), 
+    url("../../img/nav1.PNG");
     background-position: start;
     background-repeat: no-repeat;
     background-size: cover;
 
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
-
-    grid-column: 1/2;
     grid-row: 2/3;
-
-    border-right: solid 6px rgba(0, 0, 0, 0.1);
+    grid-column: 1/2;
 }
 
 .navbar{
     font-size: 15pt;
+    width: 1fr;
     padding: 0;
-    margin: 5px;
+    margin: 0;
     list-style-type: none;
 }
 
 .navbar li{
-    margin-top: 9px;
-    margin-bottom: 9px;
-    margin-left: 10px;
+    margin: 4px 0 4px 0;
+    font-size: 17pt;
+    padding: 3px 10px 3px 20px;
+    border-radius: 2px;
+    border-left: solid 3px snow;
+    transition: 0.40s;
 }
 
-.navbar li a{
-    border: none;
-    border-left: solid 3px white;
-    padding: 0px 50px 2px 7px;
+.navbar a{
     text-decoration: none;
     color: white;
-    transition: 0.10s;
 }
 
-.navbar li a.donate{
+.navbar li.donate{
     border-left: solid 3px gold;
 }
 
-.navbar li a:hover{
-    border-left: solid 10px white;
+
+.navbar li:hover{
+    background-color: rgba(0, 0, 0, 0.3);
+    border-left: solid 10px snow;
 }
 
-.navbar li a.donate:hover{
+.navbar li.donate:hover{
     border-left: solid 10px gold;
 }
 
-.items{
-    grid-row: 1/2;
-    align-self: center;
-}
-
-.ext{
-    grid-row: 2/3;
-    align-self: center;
-}
 

@@ -1,9 +1,12 @@
 footer{
     display: grid;
-    background-image: url("../../img/nav2.PNG");
+    background-image: linear-gradient(to left, 
+    rgba(0, 0, 0, 0.001), 
+    rgba(0, 0, 0, 0.4)), 
+    url("../../img/nav2.PNG");
     background-color: #cccccc;
-    background-position: start;
     background-repeat: no-repeat;
+    background-position: start;
     background-size: cover;
 
     grid-column: 1/2;
@@ -16,21 +19,27 @@ footer{
     grid-template-rows: 1fr;
 
     font-size: 13pt;
-    border-right: solid 6px rgba(0, 0, 0, 0.1);
 }
 
-footer a{
-    text-decoration: none;
-    color: #021C40;
-    font-weight: 600;
-    transition: 0.5s;
-}
-
-footer a:hover{
-    opacity: 0.8;
-}
 
 footer div.footer-container{
     justify-self: center;
     align-self: center;
+}
+
+.icon{
+    filter: blur(1px);
+    opacity: 0.5;
+    padding: 8px;
+    height: 40px;
+    width: 40px;
+    transition: 0.3s;
+}
+
+.icon:hover{
+    height: 43px;
+    width: 43px;
+    transform: rotate(3deg);
+    filter: blur(0px);
+    opacity: 1;
 }

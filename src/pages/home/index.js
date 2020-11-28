@@ -3,13 +3,15 @@ import { BrowserRouter, Switch, Route, Redirect } from  'react-router-dom'
 import './style.css'
 
 import Welcome from './welcome'
+import Download from './download'
+import Contact from './contact'
 
 export default class Home extends Component{
     state = {
         slidesList: [
             'welcome-slide',
-            'welcome-slide1',
-            'welcome-slide2',
+            'download-slide',
+            'contact-slide',
             'welcome-slide3'
         ],
         slide: 0
@@ -50,6 +52,12 @@ export default class Home extends Component{
                         <Switch>
                             <Route path="/welcome-slide">
                                 <Welcome />
+                            </Route>
+                            <Route path="/download-slide">
+                                <Download />
+                            </Route>
+                            <Route path="/contact-slide">
+                                <Contact />
                             </Route>
                         </Switch>
                         <Redirect to={`/${slidesList[slide]}`}/>
